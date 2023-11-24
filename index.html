@@ -3,36 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
+    <title>Mi Portafolio</title>
+    <style> /* Reset de estilos para asegurar la consistencia entre navegadores */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        p {
+            text-align: justify;
+        }
+        
+        header {
+            background-color: #4285f4; /* Cambia el color de fondo según tu preferencia */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Hace que las esquinas sean redondas */
+        }
+        
+        header p {
+            font-size: 1.2em;
+        }
+        
+        section {
+            margin: 20px 0;
+        }
+        
+        h2 {
+            color: #4285f4; /* Puedes cambiar el color de los títulos según tu preferencia */
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .project {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #4285f4; /* Cambia el color de fondo según tu preferencia */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <img src="D:\RODY SANMARTIN\Pictures\Saved Pictures\Tamaño Carnet\Q1 remove iluminado.jpeg" alt="Foto personal">
+        <h1>¡Hola! Soy Rody Sanmartin</h1>
+        <p>Como economista y programador, fusiono dos mundos apasionantes.
+           Mi formación dual me proporciona una perspectiva única, combinando 
+           habilidades analíticas y técnicas para abordar los desafíos desde 
+           diferentes ángulos.
+
+           Mi conocimiento en economía me dota de una comprensión profunda de 
+           los principios económicos, las tendencias del mercado y el análisis 
+           financiero. En el ámbito de la programación, disfruto diseñando 
+           soluciones informáticas, aplicando mi destreza técnica para crear 
+           herramientas efectivas.</p>
     </header>
     
-    <nav>
+    <section id="about">
+        <h2>Acerca de Mí</h2>
+        <p>A lo largo de mi trayectoria profesional, he fusionado mi sólida 
+            formación en Economía con mi apasionada habilidad para la 
+            programación, creando así un perfil profesional único y multifacético. 
+            Desde mis primeros pasos en el ámbito laboral, he buscado constantemente
+             integrar innovaciones tecnológicas en mis enfoques económicos, 
+             estableciendo un equilibrio dinámico entre el análisis de datos y la 
+             creación de soluciones informáticas avanzadas. Mi experiencia se ha 
+             forjado en la intersección de estos dos campos, donde he liderado 
+             proyectos que van desde el diseño de modelos económicos hasta la 
+             implementación de soluciones tecnológicas punteras</p>
+        <p>Con 2 años en Programación, me he especializado en Backend.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li>Backend</li>
+            <li>Machine Learning</li>
+            <li>Data Science</li>
+            <!-- Añade más habilidades según sea necesario -->
         </ul>
-    </nav>
+    </section>
     
-    <main>
-        <section>
-            <h2>Sección 1</h2>
-            <p>Este es un párrafo de la sección 1.</p>
-        </section>
-        
-        <section>
-            <h2>Sección 2</h2>
-            <p>Este es un párrafo de la sección 2.</p>
-        </section>
-    </main>
-    
+    <section id="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="project">
+            <h3>Comdif C&D</h3>
+            <p>App para android, la cual tiene como objetivo hacer compras de alimentos desde casa de manera rápida</p>
+            <p>Logros: La App creció de manera acelerada, convirtiendose en la primera Startup Ecuatoriana en facturar 22 millones de USD en dos meses</p>
+        </div>
+        <!-- Añade más proyectos según sea necesario -->
+    </section>
+
+    <section id="goals">
+        <h2>Objetivos Profesionales</h2>
+        <p>Mi objetivo es destacar en el campo de la ciencia de datos, fusionando
+             mis habilidades en economía y programación para abordar desafíos complejos.
+             Estoy comprometido/a a explorar nuevas fronteras en la analítica de datos y 
+             el desarrollo de soluciones innovadoras. Mi pasión por la tecnología y la
+             innovación impulsa mi dedicación para contribuir al avance de la ciencia de 
+             datos y crear un impacto positivo en el mundo empresarial y más allá.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 Mi Portafolio</p>
     </footer>
 </body>
 </html>
